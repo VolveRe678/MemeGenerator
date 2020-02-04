@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+header{
+  display: flex;
+    height: 200px;
+    background: chocolate;
+}
+
+.memes{
+  display: flex;
+  position: relative;
+}
+.top{
+  position: absolute;
+  font-size: 40px;
+  left: 45%;
+  top: 15px;
+}
+
+.bottom{
+  position: absolute;
+  font-size: 40px;
+  left: 45%;
+  bottom: 15px;
+}
